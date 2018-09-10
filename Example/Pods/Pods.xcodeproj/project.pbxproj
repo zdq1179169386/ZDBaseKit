@@ -7,16 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058E26680D6E53399010F5021238EA67 /* UIColor+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 566CF095E9BFE3AAE5BD37AA11828100 /* UIColor+ZDAdd.m */; };
+		107CD79E678211EA9E1B9AA1BD859DE0 /* NSDate+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F302F18BA6CD3A9CACE9994B2EA60 /* NSDate+ZDAdd.m */; };
 		10A15E540CBF7046FB0E3AD78E66B79B /* Pods-ZDBaseKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BC84F7C6B4634C601DF5768AD74CF /* Pods-ZDBaseKit_Example-dummy.m */; };
 		135EDFDCE167F6B39BFCE083D304FA30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		164E001E922B86AE0C7AEE0B00CA98A3 /* ZDBaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C907C89C8D1A11B9E6D8C3B2EBABFF /* ZDBaseKit-dummy.m */; };
+		14000776819796BD5753739ADE850CCC /* UILabel+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 934F47F1CE8B8D7FD7582AE82E9D5DAF /* UILabel+ZDAdd.m */; };
+		1753757E1FB14F56171640C7806A2073 /* UITabBar+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 19263FD101AB859E5821C364A4C828CC /* UITabBar+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1790EBBAD39ABE9BA853A1BDF533E162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1D8529056A67EE63C3FDD64A27A48493 /* UINavigationController+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D98F9C9044CEF9AC1962D45B4917E41 /* UINavigationController+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C8A4BC71CB9B49BE6C4520AC145391 /* ZDFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E369C2155371A8C66FA036A4116C3A /* ZDFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2187A24C26263B00A6C22F70B27873BC /* Pods-ZDBaseKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5F794AB320C061974D822F7BA31F31 /* Pods-ZDBaseKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282681D6D66E3647099345A6F2661AC5 /* UIImage+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F26808F3F0C4D03F18C9C988EE179742 /* UIImage+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DB06B10AE29E3BFF34903C73B0A644C /* Pods-ZDBaseKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612A0F4BBB5A21844C8727145F5CE556 /* Pods-ZDBaseKit_Tests-dummy.m */; };
-		5F423CBFDC9CF011B7736D1C6DBA5A3E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AF63A6414A211CA286DF5A62B0066 /* ReplaceMe.m */; };
-		A5B57DD997CB59E1734764FB9D2E4A3D /* ZDBaseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AEE4ECBD11CA5E861B920A83BDEF43 /* ZDBaseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE0997F5F24CA072D85A5D83C00DC6C /* UINavigationController+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32617EA0AD0269C9F29D7F47ABD7D4D4 /* UINavigationController+ZDAdd.m */; };
+		2E7F6C962146774200E86A3A /* ZDBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7F6C952146774200E86A3A /* ZDBaseKit.h */; };
+		300010433272FD7C230A12AB4D3CEDCB /* ZDUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C47CA62B66FA523A99B2213EFB459947 /* ZDUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31615F65C21EA5168EEB88FF21547F91 /* ZDBaseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA02F4F7B6B8409786A9A5C768F1C9B6 /* ZDBaseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322A92A36E391310E5E65108400B402B /* NSData+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F7955138ECEEAD6FE52440285D46DC04 /* NSData+ZDAdd.m */; };
+		3C1CC8E03E8EB2730DF35DA2B4299066 /* UITextView+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9561FD226E69D2D53420F8BCBA801 /* UITextView+ZDAdd.m */; };
+		4C0DF1E0D0096DDA798144A12A81F56C /* NSNotificationCenter+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA8A60AE54A650A069D72580813C24 /* NSNotificationCenter+ZDAdd.m */; };
+		4F55D33473934E6E52E466AC857C9189 /* NSArray+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9848ECA7D19C39A98C2DA244EB6911A1 /* NSArray+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596DE16CEE12C09B62A0D5261F9D0D1F /* NSArray+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F56E583237A2F89C2D0A22573B963118 /* NSArray+ZDAdd.m */; };
+		5C870AC906E0D47425A77842499E7202 /* UIColor+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B35AB3D8B281C7467A4D38022E967A9 /* UIColor+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDC5FCFB7052470F48DD460CD9F654E /* UIImage+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 87110887F4BE469E1C2434ED1D99A308 /* UIImage+ZDAdd.m */; };
+		5D2C870D6654627B2E2145B37AEDA006 /* NSString+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A04243A23153F96067742B809109A4 /* NSString+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6484E743AB249E19C3F8817F8350276B /* NSDate+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D658856E30618E0B63C8F56A20C52634 /* NSDate+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DDAEA21650503683813423032A1972 /* UIBarButtonItem+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BB20786772B85A9BC7E6C93BBE093 /* UIBarButtonItem+ZDAdd.m */; };
+		781B9D8A257CF2C2F10AB66C96311CA8 /* UITabBar+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C82254F1335C8ABAF60BB8102148D5 /* UITabBar+ZDAdd.m */; };
+		7E0DEE575D6133F922DA6D63BEB74C52 /* UITextView+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BA1A2EC8BE3EE31E02263976057919 /* UITextView+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E44C5D66E1230B57BFCA2ADFED787EA /* UIButton+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE534BED4EB5D078FB9AA4B51C10BAB /* UIButton+ZDAdd.m */; };
+		7ED6F165C2A048066CDBC023EA10C07F /* UIAlertController+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F14368C6C9C2B682AE2A637F8A1C181E /* UIAlertController+ZDAdd.m */; };
+		8426BE4D68E49245A55F8DC6C768A83F /* NSNotificationCenter+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1A3FE0B1824C2B3FF41A916865C448 /* NSNotificationCenter+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E00FF8E52E9DC8A91EDDE8F7AEA5E02 /* UIBarButtonItem+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E47E169EB7E9E36BE9A0319E9B0A808 /* UIBarButtonItem+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936F820FBDA75B88AEFA390983F66241 /* NSTimer+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 250D144D7FB96F02657B9C5E4EA08D1E /* NSTimer+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E53762A6E31AE753A96187C70266F5 /* NSString+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D56D76ADBD7187779C1BAEF295D8CE41 /* NSString+ZDAdd.m */; };
 		A90321BC406A02E31F8E4AF5D94FE5C9 /* Pods-ZDBaseKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 095881666ADCE7D9611CF99DBE5972FE /* Pods-ZDBaseKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB2C5DFC5037F69D2A5D55D426DA8D8 /* NSDictionary+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3D6628A46563F5F0FD44E5E2637A27 /* NSDictionary+ZDAdd.m */; };
+		B4E47EA9AD474F35029425EC0279D58E /* UITextField+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4AA32F93AB6409D957E0AA3AAC42ED /* UITextField+ZDAdd.m */; };
+		CC2C6052137E27618030282D0386E4F6 /* NSTimer+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B54077DE5A5A18935875A4FF33EDA /* NSTimer+ZDAdd.m */; };
 		CC5EDADF3C48C8068EBF7F0D4CECEF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CC786C66EF6D24399E482EC451A241E5 /* UILabel+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AD894CCAF0008B1FAB49C8036C1A8B /* UILabel+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F4C00B6F8E6923475E0FD7C92ABBC4 /* UIButton+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7D2DE7D0159F4C925FA40546B490EF /* UIButton+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55029939393CFE4B42116A1A68A01B9 /* UIView+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FED4F4B1708139B924A76AC26DADAF /* UIView+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99F87C8F65B670E6A02459AB778F685 /* NSData+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CB402B35F4D9D27C73F335B364458D8E /* NSData+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A4C1CBBEA6D1574A57C615777FB409 /* UIView+ZDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42D2DE54E572D8B15954FA6049185D /* UIView+ZDAdd.m */; };
+		DAFB9FAF03873E0B7B3FA8B0F2279574 /* UIAlertController+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A6A5A632844EF0C39C651D709B93FA /* UIAlertController+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E2E1FA89923B0C26D487039376DDF6 /* UITextField+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC3CF8CC7403F15A22C40C611E2FD76 /* UITextField+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E45CA0F83EA16F61C5699E62C0A8E889 /* NSDictionary+ZDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCF34F6488C89BDE0E7D680809BC1D6 /* NSDictionary+ZDAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBBC2A5C58FE37B3379CEB3CEB965A2C /* ZDBaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0739B1CCDD3A76951063D37ACC2390 /* ZDBaseKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,40 +76,78 @@
 
 /* Begin PBXFileReference section */
 		095881666ADCE7D9611CF99DBE5972FE /* Pods-ZDBaseKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDBaseKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		09AD894CCAF0008B1FAB49C8036C1A8B /* UILabel+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZDAdd.h"; sourceTree = "<group>"; };
 		103CFAB09460265986B62182897CCE0E /* Pods-ZDBaseKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDBaseKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1761936D82D0F64D641BD9EDE60C94F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13A04243A23153F96067742B809109A4 /* NSString+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZDAdd.h"; sourceTree = "<group>"; };
 		187B715B6045006FDFD5680D9757B6C3 /* Pods-ZDBaseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDBaseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		19263FD101AB859E5821C364A4C828CC /* UITabBar+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+ZDAdd.h"; sourceTree = "<group>"; };
 		1AFC157AEC69522DB022D11DFAD63F09 /* Pods-ZDBaseKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDBaseKit_Example-resources.sh"; sourceTree = "<group>"; };
-		1C3DCD0F64358C3A11288C22996ACAFC /* Pods_ZDBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDBaseKit_Example.framework; path = "Pods-ZDBaseKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AEE4ECBD11CA5E861B920A83BDEF43 /* ZDBaseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDBaseKit-umbrella.h"; sourceTree = "<group>"; };
-		26C907C89C8D1A11B9E6D8C3B2EBABFF /* ZDBaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDBaseKit-dummy.m"; sourceTree = "<group>"; };
+		1C3DCD0F64358C3A11288C22996ACAFC /* Pods_ZDBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCF34F6488C89BDE0E7D680809BC1D6 /* NSDictionary+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZDAdd.h"; sourceTree = "<group>"; };
+		1E3B54077DE5A5A18935875A4FF33EDA /* NSTimer+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ZDAdd.m"; sourceTree = "<group>"; };
+		24BA1A2EC8BE3EE31E02263976057919 /* UITextView+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZDAdd.h"; sourceTree = "<group>"; };
+		250D144D7FB96F02657B9C5E4EA08D1E /* NSTimer+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ZDAdd.h"; sourceTree = "<group>"; };
 		2795EB4938A6917B8C5AA68B7074ACEA /* Pods-ZDBaseKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDBaseKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		28060E81415BDDC717818064E99D64AB /* Pods-ZDBaseKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDBaseKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C7BC84F7C6B4634C601DF5768AD74CF /* Pods-ZDBaseKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDBaseKit_Example-dummy.m"; sourceTree = "<group>"; };
-		2E9B626C1C0D117B2DDE95E004C30573 /* ZDBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZDBaseKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E7F6C952146774200E86A3A /* ZDBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDBaseKit.h; sourceTree = "<group>"; };
+		2EAA61382AC1519676679622EEB244F5 /* ZDBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZDBaseKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32617EA0AD0269C9F29D7F47ABD7D4D4 /* UINavigationController+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZDAdd.m"; sourceTree = "<group>"; };
 		33D2EE416D962C8D2DD1CFBADC25AB8F /* Pods-ZDBaseKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDBaseKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A2EEFBBB096B40AED6A9D972F8D83BC /* ZDBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDBaseKit.framework; path = ZDBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366466EA7444FF51292296F631134FFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3A2EEFBBB096B40AED6A9D972F8D83BC /* ZDBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7BB20786772B85A9BC7E6C93BBE093 /* UIBarButtonItem+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZDAdd.m"; sourceTree = "<group>"; };
+		4A42D2DE54E572D8B15954FA6049185D /* UIView+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZDAdd.m"; sourceTree = "<group>"; };
 		53B9869E5EAF49335BF1A29A45521C8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566CF095E9BFE3AAE5BD37AA11828100 /* UIColor+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZDAdd.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BE534BED4EB5D078FB9AA4B51C10BAB /* UIButton+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZDAdd.m"; sourceTree = "<group>"; };
+		5D98F9C9044CEF9AC1962D45B4917E41 /* UINavigationController+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZDAdd.h"; sourceTree = "<group>"; };
 		6075EB258B17966D5DE11D92F279F1BA /* Pods-ZDBaseKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDBaseKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		612A0F4BBB5A21844C8727145F5CE556 /* Pods-ZDBaseKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDBaseKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8096B5D9F8A286ED6EC4947346A57140 /* ZDBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDBaseKit-prefix.pch"; sourceTree = "<group>"; };
+		63C82254F1335C8ABAF60BB8102148D5 /* UITabBar+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+ZDAdd.m"; sourceTree = "<group>"; };
+		6B35AB3D8B281C7467A4D38022E967A9 /* UIColor+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZDAdd.h"; sourceTree = "<group>"; };
+		6BC3CF8CC7403F15A22C40C611E2FD76 /* UITextField+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZDAdd.h"; sourceTree = "<group>"; };
+		6E47E169EB7E9E36BE9A0319E9B0A808 /* UIBarButtonItem+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZDAdd.h"; sourceTree = "<group>"; };
+		74FED4F4B1708139B924A76AC26DADAF /* UIView+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZDAdd.h"; sourceTree = "<group>"; };
 		80E76B602DA40923DE468AA2CC611B01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88BF803B36A07E2930618FEDA9931F06 /* ZDBaseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDBaseKit.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81DDB879462C647DF4B69F600BDD23B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84A6A5A632844EF0C39C651D709B93FA /* UIAlertController+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+ZDAdd.h"; sourceTree = "<group>"; };
+		87110887F4BE469E1C2434ED1D99A308 /* UIImage+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZDAdd.m"; sourceTree = "<group>"; };
+		8B4AA32F93AB6409D957E0AA3AAC42ED /* UITextField+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZDAdd.m"; sourceTree = "<group>"; };
+		8DCA8A60AE54A650A069D72580813C24 /* NSNotificationCenter+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ZDAdd.m"; sourceTree = "<group>"; };
+		934F47F1CE8B8D7FD7582AE82E9D5DAF /* UILabel+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZDAdd.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948914F92CE342BEE56F66938F919134 /* ZDBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDBaseKit-prefix.pch"; sourceTree = "<group>"; };
+		9848ECA7D19C39A98C2DA244EB6911A1 /* NSArray+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZDAdd.h"; sourceTree = "<group>"; };
 		9E5F794AB320C061974D822F7BA31F31 /* Pods-ZDBaseKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDBaseKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A03DB92FB66151B64F7EFC6E7E3C3555 /* Pods-ZDBaseKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDBaseKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		A62D08C144725F1A616AFFBE7A7BFED4 /* Pods-ZDBaseKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDBaseKit_Example.modulemap"; sourceTree = "<group>"; };
-		A8F12076ECE3289F6E23DEBE49058F12 /* Pods_ZDBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDBaseKit_Tests.framework; path = "Pods-ZDBaseKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F12076ECE3289F6E23DEBE49058F12 /* Pods_ZDBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDBaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6C7003E5407CB46FCF71D333520609 /* Pods-ZDBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AB0DB09E09B18AE4A46BC40E6AE7BFD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AC7D2DE7D0159F4C925FA40546B490EF /* UIButton+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZDAdd.h"; sourceTree = "<group>"; };
 		B09C7FD7746308E64839A0450882A943 /* Pods-ZDBaseKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDBaseKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD3D6628A46563F5F0FD44E5E2637A27 /* NSDictionary+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZDAdd.m"; sourceTree = "<group>"; };
+		C47CA62B66FA523A99B2213EFB459947 /* ZDUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZDUIKit.h; sourceTree = "<group>"; };
+		CB402B35F4D9D27C73F335B364458D8E /* NSData+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ZDAdd.h"; sourceTree = "<group>"; };
+		D3E369C2155371A8C66FA036A4116C3A /* ZDFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZDFoundation.h; sourceTree = "<group>"; };
 		D45A37349F46DFDD0BABB51C4E6AF43F /* Pods-ZDBaseKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDBaseKit_Tests.modulemap"; sourceTree = "<group>"; };
-		D81AF63A6414A211CA286DF5A62B0066 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZDBaseKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D502FFCA9B7928A9EAC6E09111990CC1 /* ZDBaseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDBaseKit.xcconfig; sourceTree = "<group>"; };
+		D56D76ADBD7187779C1BAEF295D8CE41 /* NSString+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZDAdd.m"; sourceTree = "<group>"; };
+		D658856E30618E0B63C8F56A20C52634 /* NSDate+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZDAdd.h"; sourceTree = "<group>"; };
+		DBFB1D63C817E0ECC70690B16BB45532 /* ZDBaseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDBaseKit.modulemap; sourceTree = "<group>"; };
 		DF4361CCD86CAFA5C089F43CCB80C4FE /* Pods-ZDBaseKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDBaseKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DFFCDE187E76B4BF82CE845C8CD34BEC /* Pods-ZDBaseKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDBaseKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EAF1B78A64B269310A3C48DEF3FF01C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1AE37886FA23D021373A6C36F2FFE3A /* ZDBaseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDBaseKit.xcconfig; sourceTree = "<group>"; };
+		EA02F4F7B6B8409786A9A5C768F1C9B6 /* ZDBaseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDBaseKit-umbrella.h"; sourceTree = "<group>"; };
+		ED0739B1CCDD3A76951063D37ACC2390 /* ZDBaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDBaseKit-dummy.m"; sourceTree = "<group>"; };
+		EF1A3FE0B1824C2B3FF41A916865C448 /* NSNotificationCenter+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ZDAdd.h"; sourceTree = "<group>"; };
+		F14368C6C9C2B682AE2A637F8A1C181E /* UIAlertController+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+ZDAdd.m"; sourceTree = "<group>"; };
+		F16F302F18BA6CD3A9CACE9994B2EA60 /* NSDate+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZDAdd.m"; sourceTree = "<group>"; };
+		F26808F3F0C4D03F18C9C988EE179742 /* UIImage+ZDAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZDAdd.h"; sourceTree = "<group>"; };
+		F56E583237A2F89C2D0A22573B963118 /* NSArray+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZDAdd.m"; sourceTree = "<group>"; };
+		F7955138ECEEAD6FE52440285D46DC04 /* NSData+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZDAdd.m"; sourceTree = "<group>"; };
+		FAA9561FD226E69D2D53420F8BCBA801 /* UITextView+ZDAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZDAdd.m"; sourceTree = "<group>"; };
+		FBED52E0651B8B9873D4D3C45D52AE60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,33 +178,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42381ED6B9210690D9449557BFE90B77 /* Pod */ = {
+		0C20CAA3B3E480BFB64889383FED8DD7 /* ZDUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				AB0DB09E09B18AE4A46BC40E6AE7BFD4 /* LICENSE */,
-				1761936D82D0F64D641BD9EDE60C94F5 /* README.md */,
-				2E9B626C1C0D117B2DDE95E004C30573 /* ZDBaseKit.podspec */,
+				84A6A5A632844EF0C39C651D709B93FA /* UIAlertController+ZDAdd.h */,
+				F14368C6C9C2B682AE2A637F8A1C181E /* UIAlertController+ZDAdd.m */,
+				6E47E169EB7E9E36BE9A0319E9B0A808 /* UIBarButtonItem+ZDAdd.h */,
+				3A7BB20786772B85A9BC7E6C93BBE093 /* UIBarButtonItem+ZDAdd.m */,
+				AC7D2DE7D0159F4C925FA40546B490EF /* UIButton+ZDAdd.h */,
+				5BE534BED4EB5D078FB9AA4B51C10BAB /* UIButton+ZDAdd.m */,
+				6B35AB3D8B281C7467A4D38022E967A9 /* UIColor+ZDAdd.h */,
+				566CF095E9BFE3AAE5BD37AA11828100 /* UIColor+ZDAdd.m */,
+				F26808F3F0C4D03F18C9C988EE179742 /* UIImage+ZDAdd.h */,
+				87110887F4BE469E1C2434ED1D99A308 /* UIImage+ZDAdd.m */,
+				09AD894CCAF0008B1FAB49C8036C1A8B /* UILabel+ZDAdd.h */,
+				934F47F1CE8B8D7FD7582AE82E9D5DAF /* UILabel+ZDAdd.m */,
+				5D98F9C9044CEF9AC1962D45B4917E41 /* UINavigationController+ZDAdd.h */,
+				32617EA0AD0269C9F29D7F47ABD7D4D4 /* UINavigationController+ZDAdd.m */,
+				19263FD101AB859E5821C364A4C828CC /* UITabBar+ZDAdd.h */,
+				63C82254F1335C8ABAF60BB8102148D5 /* UITabBar+ZDAdd.m */,
+				6BC3CF8CC7403F15A22C40C611E2FD76 /* UITextField+ZDAdd.h */,
+				8B4AA32F93AB6409D957E0AA3AAC42ED /* UITextField+ZDAdd.m */,
+				24BA1A2EC8BE3EE31E02263976057919 /* UITextView+ZDAdd.h */,
+				FAA9561FD226E69D2D53420F8BCBA801 /* UITextView+ZDAdd.m */,
+				74FED4F4B1708139B924A76AC26DADAF /* UIView+ZDAdd.h */,
+				4A42D2DE54E572D8B15954FA6049185D /* UIView+ZDAdd.m */,
+				C47CA62B66FA523A99B2213EFB459947 /* ZDUIKit.h */,
+			);
+			name = ZDUIKit;
+			path = ZDBaseKit/Classes/ZDUIKit;
+			sourceTree = "<group>";
+		};
+		132C316F7D6BD31522986EC35E1BF6FF /* ZDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				9848ECA7D19C39A98C2DA244EB6911A1 /* NSArray+ZDAdd.h */,
+				F56E583237A2F89C2D0A22573B963118 /* NSArray+ZDAdd.m */,
+				CB402B35F4D9D27C73F335B364458D8E /* NSData+ZDAdd.h */,
+				F7955138ECEEAD6FE52440285D46DC04 /* NSData+ZDAdd.m */,
+				D658856E30618E0B63C8F56A20C52634 /* NSDate+ZDAdd.h */,
+				F16F302F18BA6CD3A9CACE9994B2EA60 /* NSDate+ZDAdd.m */,
+				1DCF34F6488C89BDE0E7D680809BC1D6 /* NSDictionary+ZDAdd.h */,
+				BD3D6628A46563F5F0FD44E5E2637A27 /* NSDictionary+ZDAdd.m */,
+				EF1A3FE0B1824C2B3FF41A916865C448 /* NSNotificationCenter+ZDAdd.h */,
+				8DCA8A60AE54A650A069D72580813C24 /* NSNotificationCenter+ZDAdd.m */,
+				13A04243A23153F96067742B809109A4 /* NSString+ZDAdd.h */,
+				D56D76ADBD7187779C1BAEF295D8CE41 /* NSString+ZDAdd.m */,
+				250D144D7FB96F02657B9C5E4EA08D1E /* NSTimer+ZDAdd.h */,
+				1E3B54077DE5A5A18935875A4FF33EDA /* NSTimer+ZDAdd.m */,
+				D3E369C2155371A8C66FA036A4116C3A /* ZDFoundation.h */,
+			);
+			name = ZDFoundation;
+			path = ZDBaseKit/Classes/ZDFoundation;
+			sourceTree = "<group>";
+		};
+		47126DD0406EA9666DC3D3609196D440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBED52E0651B8B9873D4D3C45D52AE60 /* Info.plist */,
+				DBFB1D63C817E0ECC70690B16BB45532 /* ZDBaseKit.modulemap */,
+				D502FFCA9B7928A9EAC6E09111990CC1 /* ZDBaseKit.xcconfig */,
+				ED0739B1CCDD3A76951063D37ACC2390 /* ZDBaseKit-dummy.m */,
+				948914F92CE342BEE56F66938F919134 /* ZDBaseKit-prefix.pch */,
+				EA02F4F7B6B8409786A9A5C768F1C9B6 /* ZDBaseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZDBaseKit";
+			sourceTree = "<group>";
+		};
+		4C5B184DB8E6EBD5237361078CE584F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				366466EA7444FF51292296F631134FFD /* LICENSE */,
+				81DDB879462C647DF4B69F600BDD23B9 /* README.md */,
+				2EAA61382AC1519676679622EEB244F5 /* ZDBaseKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		45ECA300383F84CCD1DAE500EC89B221 /* Development Pods */ = {
+		528E436418B15F636EB25859F1D650C2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BE8FE7AF67583D5301E3E42116C8725 /* ZDBaseKit */,
+				F21A15122D504E0D12C6F4EFCDF575C1 /* ZDBaseKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4BE8FE7AF67583D5301E3E42116C8725 /* ZDBaseKit */ = {
-			isa = PBXGroup;
-			children = (
-				D81AF63A6414A211CA286DF5A62B0066 /* ReplaceMe.m */,
-				42381ED6B9210690D9449557BFE90B77 /* Pod */,
-				7F894C8FBA050D6E294E950481BD42D1 /* Support Files */,
-			);
-			name = ZDBaseKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5BA13F8D820EDC1E8D3C22A95A32D21E /* Products */ = {
@@ -171,25 +304,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				45ECA300383F84CCD1DAE500EC89B221 /* Development Pods */,
+				528E436418B15F636EB25859F1D650C2 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5BA13F8D820EDC1E8D3C22A95A32D21E /* Products */,
 				E3705BC478018F7F54DC89E2C855E03C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F894C8FBA050D6E294E950481BD42D1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAF1B78A64B269310A3C48DEF3FF01C7 /* Info.plist */,
-				88BF803B36A07E2930618FEDA9931F06 /* ZDBaseKit.modulemap */,
-				F1AE37886FA23D021373A6C36F2FFE3A /* ZDBaseKit.xcconfig */,
-				26C907C89C8D1A11B9E6D8C3B2EBABFF /* ZDBaseKit-dummy.m */,
-				8096B5D9F8A286ED6EC4947346A57140 /* ZDBaseKit-prefix.pch */,
-				21AEE4ECBD11CA5E861B920A83BDEF43 /* ZDBaseKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZDBaseKit";
 			sourceTree = "<group>";
 		};
 		AACD0E510C462B74F620D43A621E3EF2 /* Pods-ZDBaseKit_Example */ = {
@@ -227,22 +346,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F21A15122D504E0D12C6F4EFCDF575C1 /* ZDBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B184DB8E6EBD5237361078CE584F2 /* Pod */,
+				47126DD0406EA9666DC3D3609196D440 /* Support Files */,
+				132C316F7D6BD31522986EC35E1BF6FF /* ZDFoundation */,
+				0C20CAA3B3E480BFB64889383FED8DD7 /* ZDUIKit */,
+				2E7F6C952146774200E86A3A /* ZDBaseKit.h */,
+			);
+			name = ZDBaseKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4E85BD2696D4BF3BC08534EDDBF93377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F55D33473934E6E52E466AC857C9189 /* NSArray+ZDAdd.h in Headers */,
+				D99F87C8F65B670E6A02459AB778F685 /* NSData+ZDAdd.h in Headers */,
+				6484E743AB249E19C3F8817F8350276B /* NSDate+ZDAdd.h in Headers */,
+				E45CA0F83EA16F61C5699E62C0A8E889 /* NSDictionary+ZDAdd.h in Headers */,
+				8426BE4D68E49245A55F8DC6C768A83F /* NSNotificationCenter+ZDAdd.h in Headers */,
+				5D2C870D6654627B2E2145B37AEDA006 /* NSString+ZDAdd.h in Headers */,
+				936F820FBDA75B88AEFA390983F66241 /* NSTimer+ZDAdd.h in Headers */,
+				DAFB9FAF03873E0B7B3FA8B0F2279574 /* UIAlertController+ZDAdd.h in Headers */,
+				8E00FF8E52E9DC8A91EDDE8F7AEA5E02 /* UIBarButtonItem+ZDAdd.h in Headers */,
+				D2F4C00B6F8E6923475E0FD7C92ABBC4 /* UIButton+ZDAdd.h in Headers */,
+				5C870AC906E0D47425A77842499E7202 /* UIColor+ZDAdd.h in Headers */,
+				282681D6D66E3647099345A6F2661AC5 /* UIImage+ZDAdd.h in Headers */,
+				CC786C66EF6D24399E482EC451A241E5 /* UILabel+ZDAdd.h in Headers */,
+				1D8529056A67EE63C3FDD64A27A48493 /* UINavigationController+ZDAdd.h in Headers */,
+				2E7F6C962146774200E86A3A /* ZDBaseKit.h in Headers */,
+				1753757E1FB14F56171640C7806A2073 /* UITabBar+ZDAdd.h in Headers */,
+				E2E2E1FA89923B0C26D487039376DDF6 /* UITextField+ZDAdd.h in Headers */,
+				7E0DEE575D6133F922DA6D63BEB74C52 /* UITextView+ZDAdd.h in Headers */,
+				D55029939393CFE4B42116A1A68A01B9 /* UIView+ZDAdd.h in Headers */,
+				31615F65C21EA5168EEB88FF21547F91 /* ZDBaseKit-umbrella.h in Headers */,
+				20C8A4BC71CB9B49BE6C4520AC145391 /* ZDFoundation.h in Headers */,
+				300010433272FD7C230A12AB4D3CEDCB /* ZDUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAF7EAFE778D8D01F9300344E89CB9FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2187A24C26263B00A6C22F70B27873BC /* Pods-ZDBaseKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDE9366F152D7A35484D72DE45B2DCDA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5B57DD997CB59E1734764FB9D2E4A3D /* ZDBaseKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +414,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E147F8D4BFE9C01AE81E79FE9A26801 /* Build configuration list for PBXNativeTarget "ZDBaseKit" */;
 			buildPhases = (
-				DDE9366F152D7A35484D72DE45B2DCDA /* Headers */,
-				401DB387C1D316FB032B0AE2AC9E40AD /* Sources */,
+				4E85BD2696D4BF3BC08534EDDBF93377 /* Headers */,
+				8D6D70C838588014E18955F4324E1F44 /* Sources */,
 				63C46A07307082F820783A32D803FDE1 /* Frameworks */,
 				B9A5E75EDA588FF00AA1C82ACF97AEB1 /* Resources */,
 			);
@@ -366,12 +519,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		401DB387C1D316FB032B0AE2AC9E40AD /* Sources */ = {
+		8D6D70C838588014E18955F4324E1F44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F423CBFDC9CF011B7736D1C6DBA5A3E /* ReplaceMe.m in Sources */,
-				164E001E922B86AE0C7AEE0B00CA98A3 /* ZDBaseKit-dummy.m in Sources */,
+				596DE16CEE12C09B62A0D5261F9D0D1F /* NSArray+ZDAdd.m in Sources */,
+				322A92A36E391310E5E65108400B402B /* NSData+ZDAdd.m in Sources */,
+				107CD79E678211EA9E1B9AA1BD859DE0 /* NSDate+ZDAdd.m in Sources */,
+				ADB2C5DFC5037F69D2A5D55D426DA8D8 /* NSDictionary+ZDAdd.m in Sources */,
+				4C0DF1E0D0096DDA798144A12A81F56C /* NSNotificationCenter+ZDAdd.m in Sources */,
+				93E53762A6E31AE753A96187C70266F5 /* NSString+ZDAdd.m in Sources */,
+				CC2C6052137E27618030282D0386E4F6 /* NSTimer+ZDAdd.m in Sources */,
+				7ED6F165C2A048066CDBC023EA10C07F /* UIAlertController+ZDAdd.m in Sources */,
+				70DDAEA21650503683813423032A1972 /* UIBarButtonItem+ZDAdd.m in Sources */,
+				7E44C5D66E1230B57BFCA2ADFED787EA /* UIButton+ZDAdd.m in Sources */,
+				058E26680D6E53399010F5021238EA67 /* UIColor+ZDAdd.m in Sources */,
+				5CDC5FCFB7052470F48DD460CD9F654E /* UIImage+ZDAdd.m in Sources */,
+				14000776819796BD5753739ADE850CCC /* UILabel+ZDAdd.m in Sources */,
+				2DE0997F5F24CA072D85A5D83C00DC6C /* UINavigationController+ZDAdd.m in Sources */,
+				781B9D8A257CF2C2F10AB66C96311CA8 /* UITabBar+ZDAdd.m in Sources */,
+				B4E47EA9AD474F35029425EC0279D58E /* UITextField+ZDAdd.m in Sources */,
+				3C1CC8E03E8EB2730DF35DA2B4299066 /* UITextView+ZDAdd.m in Sources */,
+				D9A4C1CBBEA6D1574A57C615777FB409 /* UIView+ZDAdd.m in Sources */,
+				EBBC2A5C58FE37B3379CEB3CEB965A2C /* ZDBaseKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +614,7 @@
 		};
 		23DA094D293B069D80A01530DEF85857 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1AE37886FA23D021373A6C36F2FFE3A /* ZDBaseKit.xcconfig */;
+			baseConfigurationReference = D502FFCA9B7928A9EAC6E09111990CC1 /* ZDBaseKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -567,7 +737,7 @@
 		};
 		81CFDC94118D1D2C20A370CF7E196885 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1AE37886FA23D021373A6C36F2FFE3A /* ZDBaseKit.xcconfig */;
+			baseConfigurationReference = D502FFCA9B7928A9EAC6E09111990CC1 /* ZDBaseKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

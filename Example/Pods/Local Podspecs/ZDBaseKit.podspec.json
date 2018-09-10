@@ -1,15 +1,15 @@
 {
   "name": "ZDBaseKit",
   "version": "0.1.0",
-  "summary": "A short description of ZDBaseKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ZDBaseKit",
+  "description": "'一些总结'",
   "homepage": "https://github.com/zdq1179169386/ZDBaseKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zdq1179169386": "deqiang.zhu@zhihan.ltd"
+    "zdq1179169386": "2259434901@qq.com"
   },
   "source": {
     "git": "https://github.com/zdq1179169386/ZDBaseKit.git",

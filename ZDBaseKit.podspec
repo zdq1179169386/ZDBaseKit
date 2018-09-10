@@ -1,42 +1,37 @@
-#
-# Be sure to run `pod lib lint ZDBaseKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
-  s.name             = 'ZDBaseKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZDBaseKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/zdq1179169386/ZDBaseKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zdq1179169386' => 'deqiang.zhu@zhihan.ltd' }
-  s.source           = { :git => 'https://github.com/zdq1179169386/ZDBaseKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ZDBaseKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZDBaseKit' => ['ZDBaseKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'ZDBaseKit'
+    s.version          = '0.1.0'
+    s.summary          = 'ZDBaseKit'
+    s.description      = <<-DESC
+    '一些总结'
+    DESC
+    
+    s.homepage         = 'https://github.com/zdq1179169386/ZDBaseKit'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'zdq1179169386' => '2259434901@qq.com' }
+    s.source           = { :git => 'https://github.com/zdq1179169386/ZDBaseKit.git', :tag => s.version.to_s }
+    s.ios.deployment_target = '8.0'
+    s.requires_arc = true
+    s.public_header_files = 'ZDBaseKit/ZDBaseKit.h'
+    s.source_files = 'ZDBaseKit/ZDBaseKit.h'
+    # s.resource_bundles = {
+    #   'ZDBaseKit' => ['ZDBaseKit/Assets/*.png']
+    # }
+    
+    s.subspec 'ZDFoundation' do |ss|
+        ss.ios.deployment_target = '8.0'
+        ss.public_header_files = 'ZDBaseKit/ZDUIKit/ZDUIKit.h'
+        ss.source_files = 'ZDBaseKit/ZDUIKit.{h,m}'
+    end
+    
+    
+    s.subspec 'ZDUIKit' do |ss|
+        ss.ios.deployment_target = '8.0'
+        ss.public_header_files = 'ZDBaseKit/ZDUIKit/ZDUIKit.h'
+        ss.source_files = 'ZDBaseKit/ZDUIKit.{h,m}'
+    end
+    
 end
+
