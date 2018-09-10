@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.version          = '0.1.0'
     s.summary          = 'ZDBaseKit'
     s.description      = <<-DESC
-    '一些总结'
+    '平常做项目的一些总结'
     DESC
     
     s.homepage         = 'https://github.com/zdq1179169386/ZDBaseKit'
