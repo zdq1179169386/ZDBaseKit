@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDBaseKit_Example' do
+  pod 'ZDBaseKit', :path => '../'
+
+  target 'ZDBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
