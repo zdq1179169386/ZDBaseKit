@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.version          = '0.1.2'
     s.summary          = 'ZDBaseKit'
     s.description      = <<-DESC
-    '平常做项目的一些总结'
-    DESC
+                       平常做项目的一些总结
+                       DESC
     
     s.homepage         = 'https://github.com/zdq1179169386/ZDBaseKit'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -14,24 +14,18 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/zdq1179169386/ZDBaseKit.git', :tag => s.version.to_s }
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
-    s.public_header_files = 'ZDBaseKit/ZDBaseKit.h'
-    s.source_files = 'ZDBaseKit/ZDBaseKit.h'
+    #  s.public_header_files = 'ZDBaseKit/Classes/ZDBaseKit.h'
+    s.source_files = 'ZDBaseKit/Classes/**/*'
     # s.resource_bundles = {
     #   'ZDBaseKit' => ['ZDBaseKit/Assets/*.png']
     # }
     
     s.subspec 'ZDFoundation' do |ss|
-        ss.ios.deployment_target = '8.0'
-        ss.public_header_files = 'ZDBaseKit/ZDFoundation/ZDFoundation.h'
-        ss.source_files = 'ZDBaseKit/ZDFoundation/*.{h,m}'
-        ss.frameworks = 'UIFoundation'
+        ss.source_files = 'ZDBaseKit/Classes/ZDFoundation/**/*'
     end
     
     s.subspec 'ZDUIKit' do |ss|
-        ss.ios.deployment_target = '8.0'
-        ss.public_header_files = 'ZDBaseKit/ZDUIKit/ZDUIKit.h'
-        ss.source_files = 'ZDBaseKit/ZDUIKit/*.{h,m}'
-        ss.frameworks = 'UIKit'
+        ss.source_files = 'ZDBaseKit/Classes/ZDUIKit/**/*'
     end
     
 end
