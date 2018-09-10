@@ -22,15 +22,16 @@ Pod::Spec.new do |s|
     
     s.subspec 'ZDFoundation' do |ss|
         ss.ios.deployment_target = '8.0'
-        ss.public_header_files = 'ZDBaseKit/Classs/ZDUIKit/ZDUIKit.h'
-        ss.source_files = 'ZDBaseKit/Classs/ZDUIKit.{h,m}'
+        ss.public_header_files = 'ZDBaseKit/ZDFoundation/ZDFoundation.h'
+        ss.source_files = 'ZDBaseKit/ZDFoundation/*.{h,m}'
+        ss.frameworks = 'UIFoundation'
     end
-    
     
     s.subspec 'ZDUIKit' do |ss|
         ss.ios.deployment_target = '8.0'
-        ss.public_header_files = 'ZDBaseKit/Classs/ZDUIKit/ZDUIKit.h'
-        ss.source_files = 'ZDBaseKit/Classs/ZDUIKit.{h,m}'
+        ss.public_header_files = 'ZDBaseKit/ZDUIKit/ZDUIKit.h'
+        ss.source_files = 'ZDBaseKit/ZDUIKit/*.{h,m}'
+        ss.frameworks = 'UIKit'
     end
     
 end

@@ -1,5 +1,9 @@
 PODS:
-  - ZDBaseKit (0.1.0)
+  - ZDBaseKit (0.1.2):
+    - ZDBaseKit/ZDFoundation (= 0.1.2)
+    - ZDBaseKit/ZDUIKit (= 0.1.2)
+  - ZDBaseKit/ZDFoundation (0.1.2)
+  - ZDBaseKit/ZDUIKit (0.1.2)
 
 DEPENDENCIES:
   - ZDBaseKit (from `../`)
@@ -9,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDBaseKit: 4ca42feacf84f7672deb3b9b97ceff20357e4b1f
+  ZDBaseKit: a596b480513d7c43d4a83ecc58a6962d10d4cc81
 
-PODFILE CHECKSUM: 961397f4a909b8c4eb7a4b0c1232e28507996411
+PODFILE CHECKSUM: 8271d99a7c5f3a71a9e4f806363a03b0829ad8df
 
 COCOAPODS: 1.5.3

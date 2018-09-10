@@ -1,8 +1,8 @@
 {
   "name": "ZDBaseKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "ZDBaseKit",
-  "description": "'一些总结'",
+  "description": "'平常做项目的一些总结'",
   "homepage": "https://github.com/zdq1179169386/ZDBaseKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,32 @@
   },
   "source": {
     "git": "https://github.com/zdq1179169386/ZDBaseKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZDBaseKit/Classes/**/*"
+  "requires_arc": true,
+  "public_header_files": "ZDBaseKit/ZDBaseKit.h",
+  "source_files": "ZDBaseKit/ZDBaseKit.h",
+  "subspecs": [
+    {
+      "name": "ZDFoundation",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "public_header_files": "ZDBaseKit/ZDFoundation/ZDFoundation.h",
+      "source_files": "ZDBaseKit/ZDFoundation/*.{h,m}",
+      "frameworks": "UIFoundation"
+    },
+    {
+      "name": "ZDUIKit",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "public_header_files": "ZDBaseKit/ZDUIKit/ZDUIKit.h",
+      "source_files": "ZDBaseKit/ZDUIKit/*.{h,m}",
+      "frameworks": "UIKit"
+    }
+  ]
 }
