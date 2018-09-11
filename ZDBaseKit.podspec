@@ -22,10 +22,13 @@ Pod::Spec.new do |s|
     
     s.subspec 'ZDFoundation' do |ss|
         ss.source_files = 'ZDBaseKit/Classes/ZDFoundation/**/*'
+        ss.frameworks = 'Foundation','CommonCrypto','CoreFoundation'
+
     end
     
     s.subspec 'ZDUIKit' do |ss|
         ss.source_files = 'ZDBaseKit/Classes/ZDUIKit/**/*'
+        ss.frameworks = 'UIKit','Foundation','CoreFoundation','CoreGraphics'
     end
     
 end
