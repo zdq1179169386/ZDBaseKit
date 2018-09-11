@@ -13,20 +13,20 @@
 /**
  定时器
 
- @param seconds
- @param repeats
- @param block
- @return
+ @param seconds seconds
+ @param repeats repeats
+ @param block block
+ @return NSTimer
  */
 + (NSTimer *)zd_scheduledTimerWithTimeInterval:(NSTimeInterval)seconds repeats:(BOOL)repeats block:(void (^)(NSTimer *timer))block;
 
 /**
  定时器
 
- @param seconds
- @param repeats
- @param block
- @return
+ @param seconds seconds
+ @param repeats repeats
+ @param block block
+ @return NSTimer
  */
 + (NSTimer *)zd_timerWithTimeInterval:(NSTimeInterval)seconds repeats:(BOOL)repeats block:(void (^)(NSTimer *timer))block;
 

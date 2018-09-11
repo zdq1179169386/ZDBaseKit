@@ -13,16 +13,16 @@
 /**
  初始化rootController
 
- @param vcClassName
- @return
+ @param vcClassName vcClassName
+ @return UINavigationController
  */
 +(instancetype)zd_initWithRootController:(NSString *)vcClassName;
 
 /**
  push
 
- @param controllerName
- @param animated 
+ @param controllerName controllerName
+ @param animated  animated
  */
 - (void)zd_pushController:(NSString *)controllerName animated:(BOOL)animated;
 

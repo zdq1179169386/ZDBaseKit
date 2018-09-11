@@ -13,10 +13,10 @@
 /**
  alertView
 
- @param title
- @param message
- @param actionBlock
- @param cancelBtnTitle
+ @param title title
+ @param message message
+ @param actionBlock actionBlock
+ @param cancelBtnTitle cancelBtnTitle
  @param otherBtnTitles :一个或多个按钮标题，+ nil
  @return UIAlertController
  */
@@ -25,9 +25,9 @@
 /**
  ActionSheet
 
- @param title
- @param actionBlock
- @param cancelBtnTitle
+ @param title title
+ @param actionBlock actionBlock
+ @param cancelBtnTitle cancelBtnTitle
  @param otherBtnTitles :一个或多个按钮标题，+ nil
  @return UIAlertController
  */

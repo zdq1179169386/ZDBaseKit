@@ -13,13 +13,13 @@
 /**
  MD5编码
  
- @return
+ @return NSString
  */
 - (NSString *)md5String;
 /**
  base64编码
  
- @return
+ @return NSString
  */
 
 - (nullable NSString *)base64EncodedString;

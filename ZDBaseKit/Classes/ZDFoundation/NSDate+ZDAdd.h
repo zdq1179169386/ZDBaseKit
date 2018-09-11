@@ -34,19 +34,19 @@
 /**
  
 
- @param dateString
- @param format NSDate
- @return
+ @param dateString dateString
+ @param format @"yyyy-MM-dd HH:mm:ss"
+ @return NSDate
  */
 + (nullable NSDate *)zd_dateWithString:(NSString *)dateString format:(NSString *)format;
 
 /**
  
 
- @param dateString
- @param format
- @param timeZone
- @param locale
+ @param dateString dateString
+ @param format format
+ @param timeZone timeZone
+ @param locale locale
  @return NSDate
  */
 + (nullable NSDate *)zd_dateWithString:(NSString *)dateString

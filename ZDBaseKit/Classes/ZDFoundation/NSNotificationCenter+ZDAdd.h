@@ -13,7 +13,7 @@
 /**
  在主线程发送通知
 
- @param notification
+ @param notification notification
  */
 - (void)zd_postNotificationOnMainThread:(NSNotification *)notification;
 @end

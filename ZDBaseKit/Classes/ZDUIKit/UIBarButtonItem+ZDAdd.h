@@ -21,10 +21,10 @@ typedef NS_ENUM(NSUInteger, UIBarButtonItemType) {
 /**
  根据文字初始化 UIBarButtonItem
 
- @param text
- @param fontSize
- @param textColor
- @param action
+ @param text text
+ @param fontSize fontSize
+ @param textColor textColor
+ @param action action
  @return UIBarButtonItem
  */
 -(instancetype)zd_initItemWithText:(NSString *)text fontSize:(CGFloat )fontSize textColor:(UIColor *)textColor action:(void(^)(UIButton * btn))action;
@@ -32,10 +32,10 @@ typedef NS_ENUM(NSUInteger, UIBarButtonItemType) {
 /**
  根据图片生成 UIBarButtonItem
 
- @param image
- @param highlightImage
+ @param image image
+ @param highlightImage highlightImage
  @param type left or right
- @param action
+ @param action action
  @return UIBarButtonItem
  */
 -(instancetype)zd_initItemWithImage:(UIImage *)image highlightImage:(UIImage *)highlightImage type:(UIBarButtonItemType)type action:(void(^)(UIButton * btn))action;

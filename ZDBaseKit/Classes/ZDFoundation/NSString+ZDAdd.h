@@ -13,39 +13,37 @@
 /**
  MD5编码
  
- @return
+ @return NSString
  */
 - (nullable NSString *)md5String;
 
 /**
  base64编码
 
- @return
+ @return NSString
  */
 - (nullable NSString *)base64EncodedString;
 
 /**
  计算size
 
- @param font
- @param size
- @return
+ @param font font
+ @param size size
+ @return NSString
  */
 - (CGSize)zd_sizeForFont:(UIFont *)font size:(CGSize)size;
 /**
  计算宽度
  
- @param font
- @param size
- @return
+ @param font font
+ @return CGFloat
  */
 - (CGFloat)zd_widthForFont:(UIFont *)font;
 /**
  计算高度
  
- @param font
- @param size
- @return
+ @param font font
+ @return CGFloat
  */
 - (CGFloat)zd_heightForFont:(UIFont *)font width:(CGFloat)width;
 @end
