@@ -1,6 +1,6 @@
 {
   "name": "ZDBaseKit",
-  "version": "0.1.2",
+  "version": "0.2.2",
   "summary": "ZDBaseKit",
   "description": "平常做项目的一些总结",
   "homepage": "https://github.com/zdq1179169386/ZDBaseKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zdq1179169386/ZDBaseKit.git",
-    "tag": "0.1.2"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"

@@ -13,7 +13,7 @@
 /**
  快捷创建button
 
- @param configureBlock
+ @param configureBlock configureBlock
  @param actionBlock 这个block里注意循环引用
  @return UIButton
  */
@@ -23,7 +23,7 @@
 /**
  给button添加点击block
 
- @param actionBlock 
+ @param actionBlock  actionBlock
  */
 - (void)zd_addTouchUpInsideEvent:(void(^)(UIButton *btn))actionBlock;
 
