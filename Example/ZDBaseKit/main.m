@@ -6,7 +6,7 @@
 //  Copyright (c) 2018 zdq1179169386. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "ZDAppDelegate.h"
 
 int main(int argc, char * argv[])
