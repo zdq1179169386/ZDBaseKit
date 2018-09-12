@@ -14,19 +14,21 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/zdq1179169386/ZDBaseKit.git', :tag => s.version.to_s }
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
-    #  s.public_header_files = 'ZDBaseKit/Classes/ZDBaseKit.h'
-    s.source_files = 'ZDBaseKit/Classes/**/*'
+    s.public_header_files = 'ZDBaseKit/Classes/ZDBaseKit.h'
+    s.source_files = 'ZDBaseKit/Classes/ZDBaseKit.h'
     # s.resource_bundles = {
     #   'ZDBaseKit' => ['ZDBaseKit/Assets/*.png']
     # }
     
     s.subspec 'ZDFoundation' do |ss|
         ss.source_files = 'ZDBaseKit/Classes/ZDFoundation/**/*'
+        ss.public_header_files = 'ZDBaseKit/Classes/ZDFoundation/**/*.h'
 
     end
     
     s.subspec 'ZDUIKit' do |ss|
         ss.source_files = 'ZDBaseKit/Classes/ZDUIKit/**/*'
+        ss.public_header_files = 'ZDBaseKit/Classes/ZDUIKit/**/*.h'
     end
     
 end
