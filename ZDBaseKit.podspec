@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ZDBaseKit'
-    s.version          = '0.2.4'
+    s.version          = '0.2.5'
     s.summary          = 'ZDBaseKit'
     s.description      = <<-DESC
                        平常做项目的一些总结
