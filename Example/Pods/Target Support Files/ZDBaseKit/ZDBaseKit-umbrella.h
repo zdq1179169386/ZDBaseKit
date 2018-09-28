@@ -30,6 +30,7 @@
 #import "UITextField+ZDAdd.h"
 #import "UITextView+ZDAdd.h"
 #import "UIView+ZDAdd.h"
+#import "UIViewController+ZDAdd.h"
 #import "ZDUIKit.h"
 
 FOUNDATION_EXPORT double ZDBaseKitVersionNumber;
