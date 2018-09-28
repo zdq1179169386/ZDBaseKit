@@ -1,5 +1,5 @@
 # ZDBaseKit
-<<<<<<< HEAD
+
 
 [![CI Status](https://img.shields.io/travis/zdq1179169386/ZDBaseKit.svg?style=flat)](https://travis-ci.org/zdq1179169386/ZDBaseKit)
 [![Version](https://img.shields.io/cocoapods/v/ZDBaseKit.svg?style=flat)](https://cocoapods.org/pods/ZDBaseKit)
@@ -23,11 +23,8 @@ pod 'ZDBaseKit'
 
 ## Author
 
-zdq1179169386, deqiang.zhu@zhihan.ltd
+zdq1179169386, 
 
 ## License
 
 ZDBaseKit is available under the MIT license. See the LICENSE file for more info.
-=======
-ZDBaseKit
->>>>>>> 95a692b717a5fce736ef7cbed13c9b7b033cb77b
