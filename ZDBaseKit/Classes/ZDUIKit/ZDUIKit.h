@@ -20,5 +20,5 @@
 #import "UITabBar+ZDAdd.h"
 #import "UITextField+ZDAdd.h"
 #import "UITextView+ZDAdd.h"
-
+#import "UIViewController+ZDAdd.h"
 #endif /* ZDUIKit_h */

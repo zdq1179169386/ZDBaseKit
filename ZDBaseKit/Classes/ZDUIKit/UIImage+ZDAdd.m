@@ -9,6 +9,10 @@
 #import "UIImage+ZDAdd.h"
 
 @implementation UIImage (ZDAdd)
++ (UIImage *)zd_imageWithColor:(UIColor *)color;
+{
+   return [[self class] zd_imageWithColor:color withSize:CGSizeZero];
+}
 + (UIImage *)zd_imageWithColor:(UIColor *)color withSize:(CGSize )imgSize;
 {
     //如果传的size是{0,0}

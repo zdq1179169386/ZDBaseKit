@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
     s.subspec 'ZDUIKit' do |ss|
         ss.source_files = 'ZDBaseKit/Classes/ZDUIKit/**/*'
         ss.public_header_files = 'ZDBaseKit/Classes/ZDUIKit/**/*.h'
+        s.dependency 'RSSwizzle'
     end
     
 end

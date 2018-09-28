@@ -12,6 +12,16 @@
 
 /**
  根据颜色生成图片
+ 
+ @param color color
+ @param imgSize imgSize
+ @return UIImage
+ */
++ (UIImage *)zd_imageWithColor:(UIColor *)color;
+
+
+/**
+ 根据颜色生成图片
 
  @param color color
  @param imgSize imgSize

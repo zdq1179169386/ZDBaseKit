@@ -1,19 +1,28 @@
 PODS:
-  - ZDBaseKit (0.2.2):
-    - ZDBaseKit/ZDFoundation (= 0.2.2)
-    - ZDBaseKit/ZDUIKit (= 0.2.2)
-  - ZDBaseKit/ZDFoundation (0.2.2)
-  - ZDBaseKit/ZDUIKit (0.2.2)
+  - RSSwizzle (0.1.0)
+  - ZDBaseKit (0.2.5):
+    - RSSwizzle
+    - ZDBaseKit/ZDFoundation (= 0.2.5)
+    - ZDBaseKit/ZDUIKit (= 0.2.5)
+  - ZDBaseKit/ZDFoundation (0.2.5):
+    - RSSwizzle
+  - ZDBaseKit/ZDUIKit (0.2.5):
+    - RSSwizzle
 
 DEPENDENCIES:
   - ZDBaseKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RSSwizzle
 
 EXTERNAL SOURCES:
   ZDBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDBaseKit: 3c438a48fa0ea0e2b2c9872fd377e35dda53cccb
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  ZDBaseKit: a85f6509d719117177d0d233a5a38202d5bbc111
 
 PODFILE CHECKSUM: 8271d99a7c5f3a71a9e4f806363a03b0829ad8df
 
